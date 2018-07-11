@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "react/prefer-stateless-function": 0,
+    "react/destructuring-assignment": 0,
+    "react/button-has-type": 0,
+    "import/no-cycle": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "comma-dangle": "off",
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "camelcase": "off",
+    "arrow-parens": "off",
+    "function-paren-newline": "off",
+    "object-curly-newline": "off"
+  }
+}
